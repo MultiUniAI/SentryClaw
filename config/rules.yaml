@@ -1,0 +1,3 @@
+sensitive_patterns:
+  - name: API_KEY
+    regex: "(?i)api_key[:=]\s*['"]?[a-zA-Z0-9]{32,45}['"]?"
